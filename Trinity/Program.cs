@@ -21,7 +21,7 @@ int count = 10000;
 //Далее идет цикл:
 while (count < 10000)
 {
-    int what.new Random().Next(0, 3);
+    int what = new Random().Next(0, 3);
     //вводим рандомное переменное от 0 до 2 [0,1,2]
 
     if (what == 0)
